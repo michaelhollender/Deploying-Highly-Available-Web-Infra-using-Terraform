@@ -28,16 +28,6 @@ variable "min_size" {
   default     = 2
 }
 
-variable "bucket_name" {
-  description = "The name of the S3 bucket"
-  default     = "my-terraform-backend-bucket-luit"
-}
-
-variable "key_name" {
-  description = "The pem key for this weeks project"
-  default     = "newkey.pem"
-}
-
 variable "cidr_block" {
   type        = string
   description = "Variable for VPC CIDR block"
